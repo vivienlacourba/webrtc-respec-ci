@@ -31,7 +31,7 @@ endif
 
 .PHONY: webidl
 webidl: $(OUTPUT) $(SUPPORTDIR)/webidl-checker $(WIDLPROC_PATH)
-	WIDLPROC_PATH=$(WIDLPROC_PATH) python $(SUPPORTDIR)/webidl-checker/webidl-check $< > /dev/null
+	WIDLPROC_PATH=$(WIDLPROC_PATH) python2 $(SUPPORTDIR)/webidl-checker/webidl-check $< > /dev/null
 
 .PHONY: html5valid
 html5valid: $(OUTPUT)
