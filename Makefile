@@ -102,7 +102,7 @@ travissetup::
 
 .PHONY: setup
 setup::
-	sudo apt-get install libwww-perl libcss-dom-perl perl python2.7 python-pip python-lxml cmake
+	sudo apt-get install libwww-perl libcss-dom-perl perl python3 python2.7 python-pip python-lxml cmake
 	sudo pip install html5lib html5validator
 
 clean::
